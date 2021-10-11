@@ -1,0 +1,367 @@
+body,
+html {
+    font-family: "Arial";
+    scroll-behavior: smooth;
+
+}
+
+.wrapper,
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#main-1,#main-2,#main-3,#main-4,#main-5,#main-6,#login-body {
+    height: 100%;
+    position: relative;
+    box-shadow: inset 0 0 5em 2em rgba(0, 0, 0, 0.8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-bottom: 2rem;
+}
+
+#login-body{
+    background-image: url("/assets/main-bg.jpg");
+    box-shadow: none;
+    filter: blur(5px);
+}
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.flex-fill {
+    flex: 1 0 auto;
+}
+
+#main-1 {
+    background-image: url("/assets/main-bg.jpg");
+    /* margin-top: -5em; */
+}
+
+#main-2 {
+    background-image: url("/assets/the-games-bg.jpg");
+    /* margin-top: -5em; */
+}
+
+#main-3 {
+    background-image: url("/assets/features.jpg");
+    /* margin-top: -5em; */
+}
+
+#main-4 {
+    background-image: url("/assets/requirements.png");
+    /* margin-top: -5em; */
+}
+
+#main-5 {
+    background-image: url("/assets/bg\ image\ 5.png");
+    /* margin-top: -5em; */
+}
+#main-6 {
+    background: #000;
+    /* margin-top: -5em; */
+}
+
+
+.navbar {
+    font-family: 'Open Sans';
+    z-index: 1030;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: rgb(236, 236, 236);
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgb(212, 212, 212);
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.bg-navbar {
+    height: 5em;
+}
+
+.bg-navbar .navbar-toggler {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.4);
+
+}
+
+.header-info {
+    height: inherit;
+}
+
+.main-header {
+    /* position: absolute; */
+    /* height: inherit; */
+    width: 100%;
+    /* top:30%; */
+    color: #fff;
+    /* left: 35%; */
+}
+
+.main-header h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    letter-spacing: 0.8rem;
+}
+
+.main-header h3 {
+    font-weight: 300;
+    margin-bottom: 4rem;
+    letter-spacing: 0.1rem;
+}
+
+.main-header button {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-block: 1.5rem;
+    padding-inline: 7rem;
+    border-radius: 8px;
+}
+
+.scroll-nav {
+    bottom: 1.5rem;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-header h1 {
+        font-size: 3rem;
+    }
+
+    .main-header button {
+        font-size: 1.25rem;
+        font-weight: 600;
+        padding-block: 1.25rem;
+        padding-inline: 5rem;
+        border-radius: 8px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .main-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .main-header button {
+        font-size: 1rem;
+        font-weight: 600;
+        padding-block: 1rem;
+        padding-inline: 3rem;
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-header h1 {
+        font-size: 2rem;
+    }
+
+    .main-header h3 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .main-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .main-header h3 {
+        font-size: 1rem;
+    }
+
+    .main-header button {
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding-block: 0.75rem;
+        padding-inline: 2rem;
+        border-radius: 8px;
+    }
+}
+
+.game-section {
+    margin-top: 10rem;
+}
+
+.container-slider {
+    height: 475px;
+}
+
+.section-title {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+
+.section-subtitle {
+    font-size: 56px;
+}
+
+.section-info{
+    font-size: 18px;
+    color: white;
+    line-height: 22px;
+}
+
+.features-list{
+    min-height: 125px;
+    /* min-width: 300px; */
+}
+.list-title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFB548;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+
+.list-title:first-child {
+    list-style-type: circle;
+}
+
+.list-title:nth-child(3) {
+    list-style-type: disc;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+
+.list-style p {
+    border-left: 1px solid white;
+    padding: 15px;
+    position: relative;
+    left: -1.1rem;
+    top: -5px;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+    color: white;
+    width: 360px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.requirements-title{
+    margin-top: 5rem;
+}
+.scores-info,.requirements-info{
+    margin-left: 7rem;
+}
+
+.big-title{
+    width: 600px ;
+    font-size: 56px;
+    color: white;
+}
+.bigger-title{
+    font-size: 65px;
+    color: white;
+}
+
+.scores-info{
+    width: 420px;
+}
+
+.card-custom{
+    background-color: #FFFFFF14;
+    border-radius: 10px;
+}
+.card-custom:nth-child(odd){
+    margin-left: 150px;
+}
+.card-custom .card-text{
+    font-size: 18px;
+}
+
+.img-card{
+    width: 64px;
+    height: 64px;
+    box-shadow: 7px 3px 0 0 #FFB548;
+}
+
+.name-card{
+    font-size: 24px;
+    line-height: 1.5rem;
+    color: #FFB548;
+}
+.job-card{
+    font-size: 18px;
+    font-weight: 400;
+    color:#fff ;
+}
+
+.date-card{
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.email-subs {
+    width: 50%;
+    color: #FFB548;
+
+}
+
+.email-subs input,.email-subs input:focus{
+    height: 60px;
+    color: #FFB548;
+    background-color: #FFFFFF14;
+    border: 1px solid #FFFFFF14;
+}
+
+.btn-subs{height: 60px;width: 50%;}
+
+#footer{
+    background-color: #000;
+}
+
+.footer-flex a{
+    /* flex-grow: 1;
+    flex-basis: 0; */
+    float: right;
+    margin-inline: auto;
+    white-space: nowrap;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.footer-flex a:hover{
+    color: #FFB548;
+    transition: 0.3s ease-in-out;
+}
+
+.footer-hr{
+    border: 1px solid white;
+}
+
+.small-text{
+    font-size: 14px;
+}

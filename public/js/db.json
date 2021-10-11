@@ -1,0 +1,26 @@
+[
+    {
+        "username":"admin",
+        "password":"112233",
+        "role":"super-admin",
+        "email":"admin@admin.com"
+    },
+    {
+        "username":"admin2",
+        "password":"123123",
+        "role":"admin",
+        "email":"admin2@admin.com"
+    },
+    {
+        "username":"testuser",
+        "password":"111222",
+        "role":"user",
+        "email":"user@user.com"
+    },
+    {
+        "username":"johndoe",
+        "password":"123456",
+        "role":"user",
+        "email":"johndoe@user.com"
+    }
+]

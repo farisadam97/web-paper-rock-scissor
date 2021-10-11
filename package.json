@@ -1,0 +1,27 @@
+{
+  "name": "web-paper-rock-scissor",
+  "version": "1.0.0",
+  "description": "web-paper-rock-scissor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farisfag/web-paper-rock-scissor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farisfag/web-paper-rock-scissor/issues"
+  },
+  "homepage": "https://github.com/farisfag/web-paper-rock-scissor#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "nodemon": "^2.0.13"
+  }
+}
